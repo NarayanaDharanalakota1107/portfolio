@@ -369,27 +369,6 @@ ul {
     object-position: center;
 }
 
-.floating-icons i {
-    position: absolute;
-    font-size: 2.5rem;
-    color: var(--neon-cyan);
-    z-index: 3;
-    background: rgba(10, 14, 23, 0.7);
-    padding: 1rem;
-    border-radius: 50%;
-    backdrop-filter: blur(5px);
-    border: 1px solid rgba(255, 255, 255, 0.1);
-}
-
-.float-1 { top: 10%; left: 10%; animation: float 6s ease-in-out infinite; }
-.float-2 { top: 50%; right: 0; animation: float 5s ease-in-out infinite 1s; }
-.float-3 { bottom: 10%; left: 20%; animation: float 7s ease-in-out infinite 2s; }
-
-@keyframes float {
-    0% { transform: translateY(0px); }
-    50% { transform: translateY(-20px); }
-    100% { transform: translateY(0px); }
-}
 
 /* =========================================
    About Section
