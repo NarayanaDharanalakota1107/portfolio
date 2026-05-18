@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lakshmi Narayana Dharanalakota | Full Stack Developer</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="dark-theme">
+    <!-- Canvas for background particles -->
+    <canvas id="particles-bg"></canvas>
+
+    <!-- Navbar -->
+    <header class="navbar glass">
+        <div class="logo">
+            <a href="#home">LND<span class="glow-text">.</span></a>
+        </div>
+        <nav class="nav-links">
+            <ul>
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="hamburger">
+            <i class="fas fa-bars"></i>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h3 class="subtitle fade-in">Hello, World! I'm</h3>
+            <h1 class="title slide-up">Lakshmi Narayana <span class="glow-text">Dharanalakota</span></h1>
+            <h2 class="role typing-text"></h2>
+            <p class="description fade-in">Building responsive, scalable, and modern digital experiences.</p>
+            <div class="hero-buttons slide-up">
+                <a href="#contact" class="btn primary-btn">Hire Me</a>
+                <a href="https://drive.google.com/file/d/1w2HyERQ0gTpKuw4eJd0sj8KmqluXLLin/view?usp=drive_link" class="btn secondary-btn" onclick="alert('Please replace this # with your Google Drive or Dropbox resume link!');">Download Resume</a>
+            </div>
+            <div class="social-links fade-in">
+                <a href="https://www.linkedin.com/in/lakshmi-narayana-dharanalakota" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://github.com/NarayanaDharanalakota1107" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+                <a href="mailto:dharanalakota2002@gmail.com"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+        <div class="hero-image-container fade-in">
+            <div class="profile-glow"></div>
+            <div class="profile-pic-wrapper">
+                <img src="https://i.postimg.cc/wMyPQgK8/Passport-size-photo.jpg" alt="Profile Picture" class="profile-pic">
+            </div>
+            <div class="floating-icons">
+                <i class="fab fa-java float-1"></i>
+                <i class="fab fa-react float-2"></i>
+                <i class="fab fa-aws float-3"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section-padding">
+        <div class="section-title">
+            <h2>About <span class="glow-text">Me</span></h2>
+        </div>
+        <div class="about-content glass-card reveal">
+            <div class="bio">
+                <p>Career changer with strong problem-solving skills and quick learning ability, transitioning into Java Full Stack Development with passion for coding, cloud technologies, and AI-driven solutions.</p>
+            </div>
+            <div class="stats">
+                <div class="stat-box">
+                    <i class="fas fa-code glow-text"></i>
+                    <h3>Frontend</h3>
+                    <p>React, JS, HTML/CSS</p>
+                </div>
+                <div class="stat-box">
+                    <i class="fas fa-server glow-text"></i>
+                    <h3>Backend</h3>
+                    <p>Java, Spring Boot</p>
+                </div>
+                <div class="stat-box">
+                    <i class="fas fa-cloud glow-text"></i>
+                    <h3>Cloud & AI</h3>
+                    <p>AWS, AI Tools</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education section-padding">
+        <div class="section-title">
+            <h2>My <span class="glow-text">Education</span></h2>
+        </div>
+        <div class="timeline">
+            <div class="timeline-item reveal">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content glass-card">
+                    <h3>B.Tech in Electrical and Electronics Engineering</h3>
+                    <h4>University College of Engineering, JNTUK, Narasaraopet</h4>
+                    <span class="date">Expected June 2025</span>
+                    <p>GPA: 7.72</p>
+                </div>
+            </div>
+            <div class="timeline-item reveal">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content glass-card">
+                    <h3>Intermediate</h3>
+                    <h4>Pragathi Junior College, Prathipadu, East Godavari</h4>
+                    <span class="date">Completed: Dec 2021</span>
+                    <p>Marks: 932</p>
+                </div>
+            </div>
+            <div class="timeline-item reveal">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content glass-card">
+                    <h3>Tenth Grade</h3>
+                    <h4>ZPPHS High School, Prathipadu, East Godavari</h4>
+                    <span class="date">Completed: April 2019</span>
+                    <p>GPA: 9.2</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section-padding">
+        <div class="section-title">
+            <h2>Technical <span class="glow-text">Skills</span></h2>
+        </div>
+        <div class="skills-container">
+            <div class="skill-category glass-card reveal">
+                <h3><i class="fas fa-code icon-gradient"></i> Programming</h3>
+                <div class="skill-tags">
+                    <span>Java</span><span>DSA</span><span>Python</span><span>C</span>
+                </div>
+            </div>
+            <div class="skill-category glass-card reveal">
+                <h3><i class="fas fa-laptop-code icon-gradient"></i> Frontend</h3>
+                <div class="skill-tags">
+                    <span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>React</span>
+                </div>
+            </div>
+            <div class="skill-category glass-card reveal">
+                <h3><i class="fas fa-server icon-gradient"></i> Backend & DB</h3>
+                <div class="skill-tags">
+                    <span>Spring Boot</span><span>Java Backend</span><span>SQL</span><span>MySQL</span>
+                </div>
+            </div>
+            <div class="skill-category glass-card reveal">
+                <h3><i class="fas fa-cloud icon-gradient"></i> Cloud & Tools</h3>
+                <div class="skill-tags">
+                    <span>AWS (Fundamentals)</span><span>Power BI</span>
+                </div>
+            </div>
+            <div class="skill-category glass-card reveal">
+                <h3><i class="fas fa-users icon-gradient"></i> Soft Skills</h3>
+                <div class="skill-tags">
+                    <span>Problem Solving</span><span>Leadership</span><span>Team Management</span><span>Communication</span><span>Analytical Thinking</span><span>Quick Learning</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services section-padding">
+        <div class="section-title">
+            <h2>My <span class="glow-text">Services</span></h2>
+        </div>
+        <div class="services-grid">
+            <div class="service-card glass-card reveal">
+                <i class="fas fa-laptop-code icon"></i>
+                <h3>Web Development</h3>
+                <p>Building responsive, UI-focused modern web applications and frontend interfaces.</p>
+            </div>
+            <div class="service-card glass-card reveal">
+                <i class="fab fa-java icon"></i>
+                <h3>Java Backend</h3>
+                <p>Developing robust server-side applications using Java and advanced backend frameworks.</p>
+            </div>
+            <div class="service-card glass-card reveal">
+                <i class="fas fa-layer-group icon"></i>
+                <h3>Software Engineering</h3>
+                <p>End-to-end software solutions, from conceptualization to deployment, ensuring scalability.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects section-padding">
+        <div class="section-title">
+            <h2>Featured <span class="glow-text">Projects</span></h2>
+        </div>
+        <div class="projects-grid">
+            <!-- Project 1 -->
+            <div class="project-card glass-card reveal">
+                <div class="project-img">
+                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=500&q=80" alt="All In One Smart Platform">
+                    <div class="project-overlay">
+                        <a href="#" class="btn-sm"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                        <a href="#" class="btn-sm"><i class="fab fa-github"></i> GitHub</a>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>All In One Smart Platform</h3>
+                    <p>Responsive multi-service web platform integrating food delivery, shopping, travel, grocery, and ticket booking services into a single interface.</p>
+                    <div class="tech-stack">
+                        <span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>Flexbox</span><span>CSS Grid</span>
+                    </div>
+                </div>
+            </div>
+            <!-- Project 2 -->
+            <div class="project-card glass-card reveal">
+                <div class="project-img">
+                    <img src="https://images.unsplash.com/photo-1593941707882-a5bba14938c7?auto=format&fit=crop&w=500&q=80" alt="EV Energy Transfer">
+                </div>
+                <div class="project-info">
+                    <h3>EV-to-EV Energy Transfer</h3>
+                    <p>ANN-based battery-to-battery V2V energy transfer system reducing conversion losses using intelligent control systems.</p>
+                    <div class="tech-stack">
+                        <span>MATLAB</span><span>Simulink</span><span>Embedded Systems</span><span>ANN</span><span>Power Electronics</span>
+                    </div>
+                </div>
+            </div>
+            <!-- Project 3 -->
+            <div class="project-card glass-card reveal">
+                <div class="project-img">
+                    <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=500&q=80" alt="Hostel Management">
+                </div>
+                <div class="project-info">
+                    <h3>Hostel Complaint System</h3>
+                    <p>Console-based Java application for hostel complaint management with role-based access for students, admins, and maintenance staff.</p>
+                    <div class="tech-stack">
+                        <span>Java</span><span>OOP Concepts</span><span>ArrayList</span><span>Exception Handling</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience & Training -->
+    <section id="experience" class="experience section-padding">
+        <div class="section-title">
+            <h2>Internship & <span class="glow-text">Training</span></h2>
+        </div>
+        <div class="timeline">
+            <div class="timeline-item reveal">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content glass-card">
+                    <h3>Java Full Stack Developer Trainee</h3>
+                    <h4>CVCorp Global Pvt Ltd | Andhra Pradesh, India</h4>
+                    <span class="date">2026 - Present</span>
+                    <p>Training in Core/Adv Java, JDBC, Servlets, HTML/CSS/JS, MySQL, OOP. Building mini full stack projects and learning real-time software development practices.</p>
+                </div>
+            </div>
+            <div class="timeline-item reveal">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content glass-card">
+                    <h3>Power BI Internship</h3>
+                    <h4>Office Master</h4>
+                    <span class="date">Sept 2025 - Nov 2025</span>
+                    <p>Gained hands-on experience in data visualization and business intelligence reporting.</p>
+                </div>
+            </div>
+            <div class="timeline-item reveal">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content glass-card">
+                    <h3>Python Internship</h3>
+                    <h4>Internshala</h4>
+                    <span class="date">April 2023 - June 2023</span>
+                    <p>Developed fundamental Python programming skills through practical assignments.</p>
+                </div>
+            </div>
+            <div class="timeline-item reveal">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content glass-card">
+                    <h3>AI Tools & ChatGPT Workshop</h3>
+                    <h4>be10x</h4>
+                    <span class="date">March 2026</span>
+                    <p>Mastered leveraging AI tools to enhance productivity and software development.</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="section-title" style="margin-top: 4rem;">
+            <h2><span class="glow-text">Achievements</span></h2>
+        </div>
+        <div class="achievements-grid">
+            <div class="achievement-card glass-card reveal">
+                <i class="fas fa-trophy trophy-icon glow-text"></i>
+                <p>Student Coordinator President for VIDYOUTH Techfest at JNTU Narasaraopet</p>
+            </div>
+            <div class="achievement-card glass-card reveal">
+                <i class="fas fa-medal trophy-icon glow-text"></i>
+                <p>Winner in Badminton Singles and Doubles (2023)</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section-padding">
+        <div class="section-title">
+            <h2>Get In <span class="glow-text">Touch</span></h2>
+        </div>
+        <div class="contact-container">
+            <div class="contact-info glass-card reveal">
+                <h3>Let's Connect</h3>
+                <p>I'm currently looking for new opportunities. Whether you have a question or just want to say hi, I'll try my best to get back to you!</p>
+                <div class="info-list">
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>dharanalakota2002@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone-alt"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>+91 9989653903</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Location</h4>
+                            <p>Prathipadu, Andhra Pradesh, India</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="social-links mt-2">
+                    <a href="https://www.linkedin.com/in/lakshmi-narayana-dharanalakota" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://github.com/NarayanaDharanalakota1107" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+            <div class="contact-form glass-card reveal">
+                <form id="contactForm">
+                    <div class="input-group">
+                        <input type="text" id="name" required placeholder="Your Name">
+                    </div>
+                    <div class="input-group">
+                        <input type="email" id="email" required placeholder="Your Email">
+                    </div>
+                    <div class="input-group">
+                        <textarea id="message" rows="5" required placeholder="Your Message"></textarea>
+                    </div>
+                    <button type="submit" class="btn primary-btn submit-btn">Send Message <i class="fas fa-paper-plane"></i></button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="logo">
+                <a href="#home">LND<span class="glow-text">.</span></a>
+            </div>
+            <p>&copy; 2026 Lakshmi Narayana Dharanalakota. All rights reserved.</p>
+            <p class="footer-love">Designed & Built by <span class="glow-text">Lakshmi Narayana</span></p>
+        </div>
+    </footer>
+
+    <!-- Back to top -->
+    <a href="#home" class="back-to-top"><i class="fas fa-chevron-up"></i></a>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
