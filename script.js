@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
     
     hamburger.addEventListener('click', () => {
         navLinks.classList.toggle('active');
-        // Change icon from bars to times
+        // Change icon from bars to times 
         const icon = hamburger.querySelector('i');
         if (navLinks.classList.contains('active')) {
             icon.classList.remove('fa-bars');
