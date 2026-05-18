@@ -115,16 +115,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
-    // 6. Contact Form Submission (Prevent Default)
-    const contactForm = document.getElementById('contactForm');
-    if (contactForm) {
-        contactForm.addEventListener('submit', (e) => {
-            e.preventDefault();
-            // In a real scenario, integrate EmailJS or backend here
-            alert('Thank you for reaching out! Your message has been simulated to send successfully.');
-            contactForm.reset();
-        });
-    }
+
 
     // 7. Background Particles System (Vanilla JS)
     const canvas = document.getElementById('particles-bg');
